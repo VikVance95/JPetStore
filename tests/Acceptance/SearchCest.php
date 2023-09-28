@@ -73,6 +73,6 @@ class SearchCest
         $I->amOnPage('/actions/Catalog.action');
         $I->fillField('//*[@id="SearchContent"]/form/input[1]', 'budog');
         $I->click('//*[@id="SearchContent"]/form/input[2]');
-        $I->
+        $I->dontSee('Friendly dog from England');
     }
 }
