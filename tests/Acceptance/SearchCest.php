@@ -36,7 +36,7 @@ class SearchCest
         $I->see('Angelfish');
     }
 
-    //Проверка результатов поиска по запросу "dog"
+    //Проверка пустого результата поиска по запросу "cat"
     public function checkEmptyResult(AcceptanceTester $I): void
     {
         $I->fillField('//*[@id="SearchContent"]/form/input[1]', 'cat');
