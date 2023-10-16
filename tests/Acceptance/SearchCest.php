@@ -12,7 +12,7 @@ class SearchCest
         $I->amOnPage('/actions/Catalog.action');
     }
 
-    // tests
+    // @tests
     //Проверка наличия строки и кнопки поиска на странице
     public function checkSearchSelectors(AcceptanceTester $I): void
     {
